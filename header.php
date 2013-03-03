@@ -7,11 +7,14 @@
  * @package Foundations
  * @since Foundations 1.0
  */
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width" />
+<meta charset="utf-8" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
